@@ -1,0 +1,16 @@
+on:
+  schedule:
+    - cron: "0 * * * *"
+  watch: # 3.手动点击收藏
+    types: [started]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy app
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
