@@ -1,8 +1,8 @@
 on:
   schedule:
     - cron: "0 * * * *"
-  watch: # 3.手动点击收藏
-    types: [started]
+#  watch: # 3.手动点击收藏
+#    types: [started]
 
 jobs:
   deploy:
