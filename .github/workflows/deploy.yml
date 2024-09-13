@@ -3,8 +3,8 @@ name: Deploy to Cloudflare
 on:
   push:
     tags: [ 'v*' ]
-  watch: # 3.手动点击收藏
-    types: [started]
+#  watch: # 3.手动点击收藏
+#    types: [started]
 jobs:
   deploy:
     runs-on: ubuntu-latest
