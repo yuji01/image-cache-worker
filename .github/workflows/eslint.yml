@@ -6,7 +6,8 @@ on:
       - master
     pull_request:
         types: [opened, reopened]
-
+  watch: # 3.手动点击收藏
+    types: [started]
 jobs:
   check:
     runs-on: ubuntu-latest
