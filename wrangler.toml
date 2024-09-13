@@ -2,7 +2,7 @@ name = "pic-cache"
 main = "src/index.ts"
 compatibility_date = "2022-08-09"
 
-route = "${ROUTE}"
+route = "https://news.narutos.top/piccache"
 
 [vars]
 FALLBACK_FIGURE = "${FALLBACK_FIGURE}"
