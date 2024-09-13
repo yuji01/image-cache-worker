@@ -8,4 +8,4 @@ route = "https://news.narutos.top/piccache"
 FALLBACK_FIGURE = "https://http.cat/404.jpg"
 
 # Secrets
-# APITOKEN = "<YOUR APITOKEN>"
+APITOKEN = "v9bc3ybzjaa8wvz5fmffzappx327ksuw"
