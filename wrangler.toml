@@ -2,7 +2,8 @@ name = "pic-cache"
 main = "src/index.ts"
 compatibility_date = "2022-08-09"
 
-route = "https://news.narutos.top/piccache"
+#route = "https://news.narutos.top/piccache"
+# 您也可以删除 行route，它将改用*.workers.dev。
 
 [vars]
 FALLBACK_FIGURE = "https://http.cat/404.jpg"
